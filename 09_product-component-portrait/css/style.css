@@ -1,0 +1,67 @@
+:root {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(235, 235, 235);
+}
+
+.product-card{
+    width: 18rem;
+    height: 31rem;
+    margin: 5rem auto;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px;
+
+}
+
+.product-banner{
+    padding: 0.5rem;
+    height: 14rem;
+    background-color: rgb(255, 214, 33);
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-banner img{
+    padding-top: 3.5rem;
+    width: 80%;
+}
+
+.product-banner .product-serial-id{
+    font-size: 0.85rem;
+    color: white;
+    padding: 0;
+    margin: 0;
+    align-self: flex-end;
+}
+
+.product-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+h3.product-name{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+h5.product-edition{
+    font-weight: lighter;
+    margin: 0;
+}
+
+p.product-description{
+    font-size: 0.8rem;
+}
+
+p.product-price{
+    font-size: 2rem;
+    font-weight: bolder;
+
+    align-self: flex-end;
+}

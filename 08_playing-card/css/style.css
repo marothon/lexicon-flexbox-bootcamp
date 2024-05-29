@@ -1,0 +1,49 @@
+:root{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: rgb(224, 224, 224);
+}
+
+.playing-card{
+    background-color: rgb(243, 243, 243);
+    margin: 5rem auto;
+    padding: 0.5rem;
+    width: 300px;
+    height: 500px;
+    border-radius: 1rem;
+    border: 0.5rem solid white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-numbering{
+    text-align: center;
+}
+
+.card-numbering section:first-child{
+    color: red;
+    font-size: 2rem;
+    line-height: 1.3rem;
+    padding-bottom: 0.3rem;
+}
+
+.top.card-numbering{
+    align-self: flex-start;
+}
+
+.center.card-numbering{
+    color: red;
+    font-size: 6rem;
+    align-self: center;
+}
+
+.bottom.card-numbering{
+    align-self: flex-end;
+    transform: rotate(180deg);
+}
+

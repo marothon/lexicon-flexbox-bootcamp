@@ -1,0 +1,34 @@
+:root {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+nav.easy-menu{
+    display: flex;
+    min-width: 1000px;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+nav.easy-menu .menu-item{
+    text-align: center;
+    padding: 1rem;
+    flex: 1;
+}
+
+a.menu-item:link{
+    color: black;
+    font-style: normal;
+    text-decoration: none;
+    background-color: rgb(235, 235, 235);
+}
+
+a.menu-item:hover{
+    color: white;
+    background-color: gray;
+}

@@ -1,0 +1,27 @@
+article{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+section{
+    color: white;
+    height: 4rem;
+    padding: 0.5rem;
+}
+
+article.reverse{
+    flex-direction: row-reverse;
+}
+
+/* Coloring the fibbes and sizing the according to the fibonacci sequence */
+.fibb-1{  flex: 0;  background-color: rgb(200, 0, 0)}
+.fibb-2{  flex: 1;  background-color: rgb(180, 20, 0)}
+.fibb-3{  flex: 1;  background-color: rgb(160, 40, 0)}
+.fibb-4{  flex: 2;  background-color: rgb(140, 80, 2)}
+.fibb-5{  flex: 3;  background-color: rgb(120, 100, 3)}
+.fibb-6{  flex: 5;  background-color: rgb(100, 140, 3)}
+.fibb-7{  flex: 8;  background-color: rgb(80, 160, 3)}
+.fibb-8{  flex: 13; background-color: rgb(60, 180, 3)}
+.fibb-9{  flex: 21; background-color: rgb(40, 200, 50)}
+.fibb-10{ flex: 34; background-color: rgb(100, 235, 70)}
